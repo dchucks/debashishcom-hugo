@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://locahost:1313"
+baseurl = "http://www.debashish.com/"
 languageCode = "en-us"
 title = "Debashish Chakrabarty Web Home"
 theme = "hugo-agency-theme"
@@ -69,13 +69,12 @@ googleAnalytics = "UA-50884-12"
         name = "Samayiki"
         weight = 11
 
-
 	# Hero section
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
 		title = "Welcome To My Web Home!"
-		#subtitle = "It's nice to meet you"
+		subtitle = "Nice to see you here"
 		buttonText = "Tell me more"
 
 
@@ -131,9 +130,21 @@ googleAnalytics = "UA-50884-12"
 		# Replace them with your own.
 		[[params.about.events]]
 			img = "1.jpg"
-			date = "2009-2011"
-			title = "Our Humble Beginnings"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			#date = "2009-2011"
+			title = "Bhopali Banarasi"
+			description = "I was born at [Varanasi](//en.wikipedia.org/wiki/Varanasi), situated on the banks of the holy Ganga, although in all practical sense I have been a Bhopali, for I was brought up [here](//en.wikipedia.org/wiki/Bhopal), in the capital city of India's erstwhile largest state - Madhya Pradesh. I did my schooling from Raman Higher Secondary School, part of the education society schools of Public sector giant [BHEL](//www.bhel.com) and named after the renowned Indian [Nobel laureate](//en.wikipedia.org/wiki/C._V._Raman). I attained my Bachelors in Electrical engineering from [Awadhesh Pratap Singh University](//apsurewa.ac.in/), [Rewa](//en.wikipedia.org/wiki/Rewa,_Madhya_Pradesh) (land of the white tigers). Apart from this, I have been attained PG diplomas in Operations and Marketing Management (from IGNOU, Delhi) and PG Diploma in Advanced Computing (from CDAC)." 
+
+		[[params.about.events]]
+			img = "2.jpg"
+			#date = "2009-2011"
+			title = "Those Geocities days"
+			description = "I am a Software Consultant based at Pune (and an erstwhile blogger and podcaster). Have been on the Internet since the [Yahoo Geocities](//www.geocities.ws/debuchakrabarty/) days; opened my Blogger account in October 2002. On Geocities I hosted couple of sites including an [Amitabh Bachchan fan site](, a site for Java lovers called [Wah Java!](//web.archive.org/web/20060128012132/http://www.geocities.com/wahjava/)."
+			
+		[[params.about.events]]	
+			img = "3.jpg"
+			#date = "2009-2011"
+			title = "Those Geocities days"
+			description = "I have English blog **Null Pointer** and a Hindi one **NuktaChini**, though most of his blogging has now been replaced by micro-blogging at [Twitter](//twitter.com/dchucks)."
 
 
 
@@ -227,7 +238,7 @@ googleAnalytics = "UA-50884-12"
 	# Footer section
 	[params.footer]
         enable = true
-		copyright = "Generated with Hugo"
+		copyright = "Created with Hugo & Github pages"
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
@@ -242,8 +253,8 @@ googleAnalytics = "UA-50884-12"
 			link = "http://www.flickr.com/people/dchucks/"
 			
 		[[params.footer.social]]
-			icon = "fa-tumblr"
-			link = "http://podbharti.tumblr.com/"
+			icon = "fa-wordpress"
+			link = "http://podbharti.wordpress.com/"
 			
 		[[params.footer.social]]
 			icon = "fa-wordpress"
