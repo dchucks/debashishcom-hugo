@@ -1,5 +1,5 @@
 ---
-modalID: 1
+modalID: "1"
 title: Indibloggies
 subtitle: The Indian Weblog awards
 date: Jan 2009 - June 2010
@@ -7,7 +7,9 @@ img: indibloggies.png
 preview: indibloggies-preview.png
 client: Click here
 clientLink: http://indibloggies.blogspot.in/
-category: Blogging
+category:
+- Blogging
+- Blog Awards
 description: Indibloggies was an annual blog-award clique for Indian Blogs. The site
   “showcased the best of the Indian blogosphere” and awarded English as well as Indic
   blogs authored by Indians and the Indian Diaspora. Indibloggies hosted 5 editions
@@ -24,10 +26,11 @@ description: Indibloggies was an annual blog-award clique for Indian Blogs. The 
   same year; **[Amit Varma](http://indiauncut.com/)**, author of “India Uncut”, won
   the “Best New Indiblog” award in 2005 and then went on to win the Bastiat Prize
   in 2007 and later landed a book deal with Hachette India. Similarly, **[Arnab Ray](https://greatbong.net/)**,
-  a consecutive winner of "Best Indiblog" later landed a book deal with Harpercollins
+  a consecutive winner of "Best Indiblog" later landed a book deal with HarperCollins
   that was a best-seller.<br><br>Over the years Indibloggies also ran an essay series
   called **[Hum Blogistani](http://indibloggies.blogspot.in/search/label/Hum%20Blogistani)**
   that featured essays written by well known contemporary bloggers from the subcontinent,
   these are available as a [free ebook](//pothi.com/pothi/book/ebook-indibloggies-org-hum-blogistani-e-book).
   This publication is a collection of 10 essays published between 2005 to 2007 and
   provide a bird’s eye view of the state of the Indian blogosphere during that period.
+  Also available at Amazon as a [print book](//www.amazon.com/Hum-Blogistani-Featuring-winning-bloggers-ebook/dp/B075DGS3P4).
