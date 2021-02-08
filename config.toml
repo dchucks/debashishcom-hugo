@@ -2,7 +2,7 @@
 baseurl = "http://www.debashish.com/"
 languageCode = "en-us"
 title = "Debashish Chakrabarty Web Home"
-theme = "hugo-agency-theme"
+theme = "dc-hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-50884-12"
 
@@ -12,13 +12,11 @@ googleAnalytics = "UA-50884-12"
 	# most longer texts.
 	#
 	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-	# for more icons. The icons are represented by their corresponding
-	# CSS class.
+	# The icons are represented by their corresponding CSS class.
 
-	# To provide some metadata for search engines feel free to add a few
-    # information about you and your website.
+	# Metadata for search engines
 	name = "Debashish Chakrabarty"
-	description = "Hindi Blogger, Podcaster, Software Professional from Bhopal"
+	description = "Hindi Blogger, Podcaster, Software Professional"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -31,21 +29,21 @@ googleAnalytics = "UA-50884-12"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "your@email.com"
+	#email = "your@email.com"
 
-    # Link custom assets relative to /statuc
+    # Link custom assets relative to /static
     custom_css = []
     custom_js  = []
 
 
 	# Navigation
 	[params.navigation]
-		brand = "Debashish Chakrabarty"
-		#services = "Services"
-		about = "About"
-		portfolio = "My Websites"		
+		brand = "Debashish Chakrabarty"				
+		portfolio = "Creations"	
+		about = "About"		
 		#team = "Team"
 		#contact = "Contact"
+		#services = "Services"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -65,8 +63,20 @@ googleAnalytics = "UA-50884-12"
 		
 	# postpended links
     [[menu.postpend]]
+        url = "http://nuktachini.debashish.com"
+        name = "NuktaChini"
+        weight = 11
+	
+	# postpended links
+    [[menu.postpend]]
         url = "http://www.samayiki.com"
         name = "Samayiki"
+        weight = 11
+		
+	# postpended links
+    [[menu.postpend]]
+        url = "http://www.podbharati.com"
+        name = "Podbharati"
         weight = 11
 
 	# Hero section
@@ -75,7 +85,7 @@ googleAnalytics = "UA-50884-12"
 		# the 'static/img' folder.
 		title = "Welcome To My Web Home!"
 		subtitle = "Nice to see you here"
-		buttonText = "Tell me more"
+		buttonText = "Tell me about yourself"
 
 
 	# Services section
@@ -108,7 +118,7 @@ googleAnalytics = "UA-50884-12"
 		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
-		title = "My Websites"
+		title = "My Creations"
 		subtitle = "Here are some of my hobby projects, many of them now defunct :("
 
 		[params.portfolio.modal]
@@ -121,8 +131,10 @@ googleAnalytics = "UA-50884-12"
     # About section
 	[params.about]
         enable = true
+		timeline = false
 		title = "About Debashish"
-		subtitle = "Hindi Blogger, Podcaster, Software Professional from Bhopal"
+		subtitle = "Hindi Blogger, Podcaster, Software TPM"
+		subtitle2 = "Curious to know more? Please [click here](http://nullpointer.debashish.com/about-the-author)."
 		endpoint = "Be part<br>of our<br>story!"
 
 		# The events will be listed from the top to the bottom.
@@ -167,25 +179,6 @@ googleAnalytics = "UA-50884-12"
 				["fa-linkedin", "#"]
 			]
 
-		[[params.team.members]]
-			img = "2.jpg"
-			name = "Larry Parker"
-			position = "Lead Marketer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
-
-		[[params.team.members]]
-			img = "3.jpg"
-			name = "Diana Pertersen"
-			position = "Lead Developer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
 
 	# Client section
     [params.clients_list]
@@ -196,19 +189,6 @@ googleAnalytics = "UA-50884-12"
     	[[params.clients]]
     		logo = "envato.jpg"
     		link = "#"
-
-    	[[params.clients]]
-    		logo = "designmodo.jpg"
-    		link = "#"
-
-    	[[params.clients]]
-    		logo = "themeforest.jpg"
-    		link = "#"
-
-    	[[params.clients]]
-    		logo = "creative-market.jpg"
-    		link = "#"
-
 
 	# Contact section
 	[params.contact]
@@ -253,8 +233,8 @@ googleAnalytics = "UA-50884-12"
 			link = "http://www.flickr.com/people/dchucks/"
 			
 		[[params.footer.social]]
-			icon = "fa-wordpress"
-			link = "http://podbharti.wordpress.com/"
+			icon = "fa-podcast"
+			link = "http://podbharati.com/"
 			
 		[[params.footer.social]]
 			icon = "fa-wordpress"
