@@ -16,7 +16,7 @@ googleAnalytics = "UA-50884-12"
 
 	# Metadata for search engines
 	name = "Debashish Chakrabarty"
-	description = "Hindi Blogger, Podcaster, Software Professional"
+	description = "Hindi Blogger, Podcaster, Software Technical Program Manager at Amazon"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -85,7 +85,7 @@ googleAnalytics = "UA-50884-12"
 		# the 'static/img' folder.
 		title = "Welcome To My Web Home!"
 		subtitle = "Nice to see you here"
-		buttonText = "Tell me about yourself"
+		buttonText = "A bit about myself"
 
 
 	# Services section
@@ -130,10 +130,10 @@ googleAnalytics = "UA-50884-12"
 
     # About section
 	[params.about]
-        enable = true
+        	enable = false
 		timeline = false
 		title = "About Debashish"
-		subtitle = "Hindi Blogger, Podcaster, Software TPM"
+		subtitle = "Hindi Blogger, Podcaster, Software TPM at Amazon"
 		subtitle2 = "Curious to know more? Please [click here](http://nullpointer.debashish.com/about-the-author)."
 		endpoint = "Be part<br>of our<br>story!"
 
@@ -162,7 +162,7 @@ googleAnalytics = "UA-50884-12"
 
 	# Team section
 	[params.team]
-        enable = false
+       	 	enable = false
 		title = "Our amazing team"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
@@ -218,7 +218,7 @@ googleAnalytics = "UA-50884-12"
 	# Footer section
 	[params.footer]
         enable = true
-		copyright = "Created with Hugo & Github pages"
+		copyright = "Created with Hugo & Netlify"
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
@@ -239,6 +239,14 @@ googleAnalytics = "UA-50884-12"
 		[[params.footer.social]]
 			icon = "fa-wordpress"
 			link = "http://www.samayiki.com/"
+		
+		[[params.footer.social]]
+			icon = "fa-instagram"
+			link = "https://www.instagram.com/podbharati/"
+			
+		[[params.footer.social]]
+			icon = "fa-youtube"
+			link = "https://www.youtube.com/channel/UCrbPLFTZXwXkXf8xZz6VH0g"
 
 		[[params.footer.quicklinks]]
 			text = "Views my own or authors', not of my employer."
