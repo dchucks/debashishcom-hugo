@@ -5,6 +5,15 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: themes
+  label: Theme
+  create: all
+  match: "**/*"
+- type: document
+  path: config.toml
+  label: Site Config
+  match: "**/*"
+- type: directory
   path: data
   label: Data
   create: none
