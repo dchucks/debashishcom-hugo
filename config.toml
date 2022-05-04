@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://www.debashish.com/"
+baseurl = "https://www.debashish.com/"
 languageCode = "en-us"
 title = "Debashish Chakrabarty Web Home"
 theme = "dc-hugo-agency-theme"
